@@ -1,0 +1,1923 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'List of Drugs'
+  ClientHeight = 567
+  ClientWidth = 921
+  Position = Designed
+  WindowState = wsMaximized
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnClose = FormClose
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object Lay_clien_all: TLayout
+    Align = Client
+    Size.Width = 921.000000000000000000
+    Size.Height = 567.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Lay_top: TLayout
+      Align = Top
+      Size.Width = 921.000000000000000000
+      Size.Height = 161.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object NavigatorBindSourceDB1: TBindNavigator
+        Align = Top
+        Size.Width = 921.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        DataSource = BindSourceDB1
+        xRadius = 4.000000000000000000
+        yRadius = 4.000000000000000000
+      end
+      object Panl_print: TPanel
+        Align = Right
+        Margins.Left = 2.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 2.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 668.000000000000000000
+        Position.Y = 30.000000000000000000
+        Size.Width = 251.000000000000000000
+        Size.Height = 126.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'pushpanel'
+        TabOrder = 1
+        object rect_telech_pdf: TRectangle
+          Align = Top
+          Fill.Color = claWhite
+          Margins.Top = 5.000000000000000000
+          Position.Y = 5.000000000000000000
+          Size.Width = 251.000000000000000000
+          Size.Height = 55.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          XRadius = 25.000000000000000000
+          YRadius = 25.000000000000000000
+          object Lab_prinOne: TLabel
+            Align = Left
+            StyledSettings = [Family]
+            HitTest = True
+            Size.Width = 169.000000000000000000
+            Size.Height = 55.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 18.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = xFF18478F
+            TextSettings.HorzAlign = Center
+            Text = 'Preview / Print'
+            TabOrder = 0
+            OnClick = Lab_prinOneClick
+          end
+          object img_printOne: TCircle
+            Align = Right
+            Anchors = []
+            Fill.Bitmap.Bitmap.PNG = {
+              89504E470D0A1A0A0000000D494844520000003C0000003C08060000003AFCD9
+              72000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              031B494441546843ED9A4B68134118C7BF994DAC8A1541FA5251105BB5223E7A
+              51044B7D44B1E04945F1263EB082A60D7AF022BD0A7D848A2FF02028487D9CA4
+              B48D56548AE04D3C78D28B9526A9872A68DB3CE67336FD94523499343BC9B0EE
+              2F0C3BDF3F819D5F7627995D163C3CDC05A36D7E1CEEB556FEFCBA982A47100B
+              2626471E8526A8D4465EC2D57BBB76221761067C33450E2250207F85BEE4D1B1
+              BE4B510A1D4759B82AD0D1C4903F032E5F1A11203E40D26A8A0F056314398AF2
+              E091F1EBBA656DE42ED68325862A77755751E4284A021507AE56CB0FAEA35207
+              3F689B817356AF4B5A49984DF91652570B88780B016F5099C196E6FEF4EB15CD
+              1DCB297204EDA7A8128C616CA0F51C0AB84909C16B532978E1A4B419C219A474
+              24D8A25BDA20619BECD24BF7F42CA360CE18266C43D2725E5340F05A1F4F152C
+              6DA0B08D941E6C3D3B5B9A31A82B54DA50611B29BDFD5B8B00B84B418642A50D
+              1696B4B78BF8B6F1134E4A9B2D6C9345DA6289A17CA54D11CE3E0E5B7A72FCA4
+              5C68F752928173BE561EE9A7AB1AAFCCA72827460823C256EAFE9B97EDA96862
+              FCF86C6979A4B74CCD5BD244654E94AE962A7777AEE63EF6914A3D20DE915728
+              8F05C724257F8523FA0442B77D74290214E2582C127A406556CC112E807C84CD
+              FFD172184FD8ED78C26EC713D609020CCA767B461BA6B78A467184058C0213CD
+              B181D67DB29DF9DDE44243E9BFD349B40BCB45C113B0F8A6687FA88FA292A255
+              589EB2F76391B643D1FE0B6314951CDD477854AE5EA537404D20DC5013E83A95
+              494B88F6537ACDFE705975A0338C28DE0A86F514970CADC20CB1EE3BA687E535
+              DC79B927ED5FAE0A7A07C1D8410EAC812A2330E25B2F269EB0DBF184DD8E27EC
+              76FE3BE1E2DEA645788F0CDE5065B3410E6007F5E78CB9B769196C9482A767B4
+              8265F3C59BC36EC713763B9EB0DB5112F6FBAD04758D845B3045DD9C28097F29
+              AF19959BF874651A02D349F68E8A9CA89DD20F8FA481B110554681C0C2F1E76D
+              9FA8CC89F21C8EF607EF09C0A040D0FE98BE1A7224003DFE72BC3C5DAB215777
+              F951D1786D91AF2CFDE7F98A522130F13916B968E834F3F0F0D003C02F4FAA1D
+              4C7051F4300000000049454E44AE426082}
+            Fill.Bitmap.WrapMode = TileStretch
+            Fill.Kind = Bitmap
+            Margins.Top = 10.000000000000000000
+            Margins.Right = 20.000000000000000000
+            Margins.Bottom = 10.000000000000000000
+            Position.X = 194.000000000000000000
+            Position.Y = 10.000000000000000000
+            Size.Width = 37.000000000000000000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+          end
+        end
+        object Rectangle1: TRectangle
+          Align = Top
+          Fill.Color = claWhite
+          Margins.Top = 10.000000000000000000
+          Position.Y = 70.000000000000000000
+          Size.Width = 251.000000000000000000
+          Size.Height = 55.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          XRadius = 25.000000000000000000
+          YRadius = 25.000000000000000000
+          object Lab_print_all: TLabel
+            Align = Left
+            StyledSettings = [Family]
+            HitTest = True
+            Size.Width = 185.000000000000000000
+            Size.Height = 55.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 18.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = xFF18478F
+            TextSettings.HorzAlign = Center
+            Text = 'Preview / Print All'
+            TabOrder = 0
+            OnClick = Lab_print_allClick
+          end
+          object img_print_all: TCircle
+            Align = Right
+            Anchors = []
+            Fill.Bitmap.Bitmap.PNG = {
+              89504E470D0A1A0A0000000D494844520000003C0000003C08060000003AFCD9
+              72000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              07DE494441546843ED9B6D705C5519C7CF397793B4C516A46D92A5B5CCE01421
+              569117A5E08C9D0A7951B0B643832FF8011105CA48B34940C72F1A9551B179E9
+              D0163A4EE9F8F2C192AA503A90ECD63894D191D18253B5E82883424976D35602
+              6DDA6437FB3CFECFDD279B6C7693EC6EEE6ED7DA5F677BCFF3DF4DF7FEEF735E
+              9E7373ABCE739E730B2DC7DC687CD25971FAF822893C81E69F1939BAB7E58C84
+              052327C3D5B59D1F63435BB5321F12C9438889CD41F6C53E7BECD987C2227A4E
+              D686ABEADAD76A360794C19F02428A5E513167ED605F5344244FC9FAE4599B1D
+              85366BC1575CA91CEAABFC785795489E929581A59F7CA41A1FBC42C242302C47
+              1763744DA14C6765588FFA1648B32030F34E56FC98842ED6B4298BBFB0FC96F6
+              65227942C1BB685668CD91DEC0FD4CEA715104B3726C4CFDC64BD3A561D805A6
+              434D9B0A6DBA840C5B6636BDF8E6472F11216F4ACCB0454C635C8B2098953E33
+              3667D32568D802D3C1C07D534D6BAD2E9FABE912356C81E91BDEDE444AFD5804
+              97B99A2E61C3A0AD8D06570FDDE5A5E9D2366C99C1B4A3A37DB99A2E15C3339F
+              87353D3274370AED27457131C6BC0F99DE7FE99A6FCE1369564AC230B3BA469A
+              D3F37CDB58383A74C754D3C8F4D5A3E517AD957056B2DA2D55DED47199F1E957
+              252C0CCCBBB043F905198E899211C3EC23565D36BB222926FA5C24D4F2730967
+              A4740CCF815C0C97FEA4E531E70D9FEBFCDF19F66CD222A251CC9C41566A40A4
+              39A3592D22E67A63F4BB45CA48D16769221575B4B97120B8F990489E5155FBC3
+              4A56E6102EE67291D228FA2CAD0D1D2984594B24F4E020CC76629DDE8757374A
+              CCBDE845BFC55A7C5C3E9213DE746952277545FCB281FDAD799D447EB0AE6ED8
+              7A1DB2BB4EB30E85438183F2C68C783886F908C6DA2ECD7C4AA49C61522F850F
+              34FF51C282501295969DF0B4310F45560F6DB31B05910BC2D9374C98D599D74D
+              9759FFAD3B17C463A7AF32C4CBB051B838AE55C461E7E8C0897987D5A17B66AC
+              BB3371960D733F2BFDD1486FE05F2208EEF8DC88CCDF89535C6BB49A2F6F2461
+              45435AE95EAC5D8F857B5A9E1779563C1CC374CC68F3344EE08448B36234EDE9
+              EF697D594297AABAF68FB0D63B8CD2D78A342BA4E839ADCCA6F40B978E278631
+              E84634393591D003AF89941755F51DF7236B5D68FA124AF660D27C4B39A671B0
+              A7E9D72265C49B7598D52B7335EBAFEBB8432B7E14CD34B3A4186B3C3D817EFC
+              0866F29F42FA67E29D09DC6A8CF819DB4344CA883719263A6DCAA826FCEC83FF
+              162927AA1BBA3E8C12F220AEFEC4AD1AF4535CC99F60BFFFED4C17D35FDF710D
+              7AD637D0236E13290126C118FBAE3B71E0ABFDA2A4E0E1A4E54E407B90A5A808
+              1961E6BF47822DBB250498A0EABB7E8FC6A4CCD02926FDF948A8F91911A6A5BA
+              BEE35E64761B52EC8864D91DEE0DDC25ED14CEC62CDD8293E990B6F237B46F60
+              36BF94D0CD2C2B5E9F8DD9712AEB3B366392B3633F01515C6B5E35106CFD9B28
+              498ABE3D3426BE5F9A2E1C375F92A60B1BDE958B59CB606FF3566C605E90D07E
+              89C3CAF9A2442914D5B09D49FB9F6BF987846AF1BA1F2C44426F96D0CDAEC3F4
+              1D8972C231EA6169BA6083B15E9A29786618E7FA3A06E8B7504BDF33DD0BEBF4
+              97DD395D288F565C859D508584381BFA437FB0F50D897262E0F8823E5B8C48E8
+              DEA85F71CB8EB47DB4376318BB258C9A95B93E8882D9B9111769E23E33F3AE70
+              B0F96E8972A6BAB6FD77E8CE3748882CF3AA486FF35F2574F124C36CE8D57C9E
+              BAD14429194085F59634F382A6FC3C7A545A86BD314CA606B56F8D8439A007A5
+              2170A534F243EB949FD77A6CCABFEF5597B6A05BE3EF3E0CD169D76164F075D4
+              BBAD12BA75B3D6E64509F101F5E77030F041897262F9C6F6F96327CD31342F48
+              284AC52AA28B4EECFB9A3DAF24DECDD2462DC4EBD3B8AC8DD3BDB4A207EC764F
+              7E422DBEF09D3FE1F07622025A7D20BF9E027327F5A770489A65562F4F356B29
+              EAB284AF2B53A3C3574BA08E74B745D1337A257461A2EF4A337BAEDD59862AAF
+              4D221774DDA7A49942910DA3E71B5527CD71B6CBD105CBC9066C24BE22615654
+              2D19DE0E23C907E750AA9D718C7942C2148A6E9889EF9BFCFBDCC4CD374EADBE
+              B4DE6ECB4509A70799ADAEEBFC11361058DF27308ABBDEECD97C54C2148A6E18
+              85C6D2D17917364AE8629836A16B4F7E82D6676BE3CADACE83950D5D37D9C795
+              4577B113945DC32B979C3E8CBE3B65DD2636860F4B904656B3F4B286ADCBE34C
+              79554099C0B6EE8D7845F4FD932795AADACEEBB55176F39E9C78C6B1F7A07151
+              50929A6154630B715C0539ED7313500C43E333033D2DBF12214956197E73A1DF
+              FEFA246D4DCB177CE97B9C91F2EF4BE81209055EC49670353AF46B2225315A2D
+              712B28A350779BEB2165308BCB92C4946196DE6377622224C9AE4B77DF1E67A6
+              AF4BE40986D5BD6E69398948A8E92F7167EC465B62221C4BA8B3328C12F2618C
+              E30DF656936800A6E3AA1BDFF105115CB2EAD2E3B81309EBEF65BA8B981F1423
+              A51BB1BD7B5A8424977C62CBE544D8E2113722C5EF153909B6832F6108EC2527
+              B67BFC097A7F7D677D1CCB11B238E9CE09C595E3DC19EE69FA990D73326C59BA
+              66DBBB7C15F1E4F315738598476D6625CC88FFD62D4B5414DD5A955DA09DD8C9
+              112E0BFFA767F33BF2760AFEBACEF5AC091B12ACF949EC85351B077B03FB7236
+              FCBF80351DC7183646958B04E854B96FFE8A73D2B0259369CDF12B8BBE0E178B
+              8160E029AD78239A89FF5EC0DC9DE91ED739C7A56B3A2FF2D76D91B253A9FF02
+              0CB750FA32E121600000000049454E44AE426082}
+            Fill.Bitmap.WrapMode = TileStretch
+            Fill.Kind = Bitmap
+            Margins.Top = 10.000000000000000000
+            Margins.Right = 20.000000000000000000
+            Margins.Bottom = 10.000000000000000000
+            Position.X = 194.000000000000000000
+            Position.Y = 10.000000000000000000
+            Size.Width = 37.000000000000000000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+          end
+        end
+      end
+      object GridPanelLayout1: TGridPanelLayout
+        Align = Client
+        Size.Width = 666.000000000000000000
+        Size.Height = 136.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        ColumnCollection = <
+          item
+            Value = 72.253052164261930000
+          end
+          item
+            Value = 27.746947835738070000
+          end>
+        ControlCollection = <
+          item
+            Column = -1
+            Row = -1
+          end
+          item
+            Column = -1
+            Row = -1
+          end
+          item
+            Column = 1
+            Control = Circle1
+            Row = 0
+          end
+          item
+            Column = 0
+            Control = GroupBox1
+            Row = 1
+          end
+          item
+            Column = 0
+            Control = Panel1
+            Row = 0
+          end
+          item
+            Column = 1
+            Control = Rect_info
+            Row = 1
+          end>
+        RowCollection = <
+          item
+            Value = 36.851425330725340000
+          end
+          item
+            Value = 63.148574669274660000
+          end
+          item
+            SizeStyle = Auto
+          end>
+        object Circle1: TCircle
+          Align = Right
+          Anchors = []
+          Cursor = crHelp
+          Fill.Bitmap.Bitmap.PNG = {
+            89504E470D0A1A0A0000000D494844520000001E0000001E08060000003B30AE
+            A2000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            03EE49444154484BD5964B6C1B551486CFB933B1DDD6C4362DB6030104122021
+            C18646EAA2220225754AABF26A114B36A86A174DF31045040965834028C4A412
+            5525166C5025521E526989DD2236B0218205486403E291B67692A24CADA6B527
+            9E7B3977E664D2D4B167DA2E109F64DDFF9C79FCBEAF7307FE2B90DB1028CCF6
+            8C3F0102BB14AA2C484C23428DF445BAF4978838DF94BE1ABEC437071268BC25
+            F77E87A9700470792F405B86D38D942D0732C96909F2E87C71F004BD5AF19575
+            696EBCEF53235B39FF06DD7284A24D5E321C8E94D3269A074AC5FE1F39D5C0BA
+            C6D9BE0FEE52D2F91C11B773EAA671AA608B18EC9F2B0C7CCCA93518DCFAA47A
+            DE49D0D07E8B427471EA9610261808D6B3F187F62C5CF9AD38CD691FC1AD47F7
+            5B66D4884C82108F73A6154B0AD43150F091BD68D53877034984526522DB3BBE
+            93133E6B8C33B1E49B34FABD1CB684A6A16FAE3078B05C1C78359A4CBECCE946
+            B249835C4E647ADF4B73C6C537D617109687380C62A93475F83BD660B4CB02CB
+            6624108D11D62EAB3D16E66BB45DE21C05B129DB97DFC71AEA15F10ACBA6D8D6
+            E5FD9DBBC6EEE17065552BCCECC8CF5241F02F045205A9A2F22CA26803B09E72
+            E73300DAD8FDB4CA27B4767B9CCEE5B7DD94A92646350C458ED4D3614C350AE4
+            8B2C3D637A2AC4D6B114FDE3223D7E0095D80A0E3CAA7BD07C453772B5AAB6B2
+            F48D3BDCA825C93FE8BEE352A94AA978E8A7F2B981193D6C915422CF3704128F
+            191BEFDBF5614A6B6F71292AFAC13C48BFCF048A4FEECEE51FF65284841956A1
+            B06B35D78B57352E796D182C659AD1790EF486BE9F552890BDD8184ADC0623DB
+            7FF9FBF4C1458EF49BBA5985C052A9D462592B9E63F5A76E4381628A156CDEF3
+            EE1D7418843E48A4D37EE1D7C9515B6BD75809A3E89EA721A02DE11B476CB3C7
+            884184C340D01067587AC6E5A9FE059949FA25B019FAA8DB9CA87CCF2155107C
+            92652850C92F58FA734CD500DC8AD20A23A26657864AA3003B5906E2407DA69C
+            B8F72C87ABC6E5C261FD6F7EF0A226887AA673EFD8068EC044E76DAA2AAF933C
+            EA659A63A21881C997FCE9F48DF540280987AEE92ADC94B6B85DC193E99D638F
+            75EE18BBB38E58A7A76C09D0FA289570BA3435F825472E0D35369B1B7F81AC27
+            752DE6D46DA1BFBFA209E83E7F7288FAB44AC3A7CF95DF0B33F147FA16E82FE9
+            03E0F6CCA5FCD944F5DC8553C3FF70C667DD17D357C5311A8ADD0AAA16A76E85
+            53CB1BEADB2F168767395E43C3505F8F2EE876BD7AE41A603FADA818A75B43BD
+            940287E60B83E738B32E2D8D57C8F44E3C80C2799E0E9367A06677412CDACE97
+            BC0FF92DF1592AE045A1E0EB54C23A73FD966B4628E31BE9D87D7CA35CBE9A76
+            40D52E6DBB3C07A3A3B4B0FF1700FC0BB2744CCE52C2EC950000000049454E44
+            AE426082}
+          Fill.Bitmap.WrapMode = TileStretch
+          Fill.Kind = Bitmap
+          Margins.Top = 7.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 20.000000000000000000
+          Position.X = 636.000000000000000000
+          Position.Y = 7.000000000000000000
+          Size.Width = 25.000000000000000000
+          Size.Height = 23.117938995361330000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          OnMouseMove = Circle1MouseMove
+          OnMouseLeave = Circle1MouseLeave
+        end
+        object GroupBox1: TGroupBox
+          Align = Client
+          StyledSettings = [Family, Other]
+          Size.Width = 481.205322265625000000
+          Size.Height = 85.882064819335940000
+          Size.PlatformDefault = False
+          Text = '__Recharche Par Item_______________'
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = xFF18478F
+          TabOrder = 2
+          object RadioBu_num_enges: TRadioButton
+            StyledSettings = [Family, Size]
+            Position.X = 75.000000000000000000
+            Position.Y = 17.000000000000000000
+            Size.Width = 124.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            Text = 'N'#176'Enregestrment'
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+            TextSettings.FontColor = xFF18478F
+          end
+          object RadioBu_dosage: TRadioButton
+            StyledSettings = [Family, Size]
+            Position.X = 4.000000000000000000
+            Position.Y = 39.000000000000000000
+            Size.Width = 75.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            Text = 'Dosage'
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+            TextSettings.FontColor = xFF18478F
+          end
+          object RadioBu_Cond: TRadioButton
+            StyledSettings = [Family, Size]
+            Position.X = 76.000000000000000000
+            Position.Y = 40.000000000000000000
+            Size.Width = 61.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 2
+            Text = 'Cond'
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+            TextSettings.FontColor = xFF18478F
+          end
+          object RadioBu_code: TRadioButton
+            StyledSettings = [Family, Size]
+            Position.X = 5.000000000000000000
+            Position.Y = 16.000000000000000000
+            Size.Width = 60.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 3
+            Text = 'Code'
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+            TextSettings.FontColor = xFF18478F
+          end
+          object RadioBu_nom_marqu: TRadioButton
+            StyledSettings = [Family, Size]
+            Position.X = 196.000000000000000000
+            Position.Y = 18.000000000000000000
+            Size.Width = 117.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 4
+            Text = 'Nom de Marque'
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+            TextSettings.FontColor = xFF18478F
+          end
+          object RadioBu_Labor_decision: TRadioButton
+            StyledSettings = [Family, Size]
+            Position.X = 3.000000000000000000
+            Position.Y = 62.000000000000000000
+            Size.Width = 228.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 5
+            Text = 'Laboratoires Detenteur de La Decision'
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+            TextSettings.FontColor = xFF18478F
+          end
+          object RadioBu_nomunation: TRadioButton
+            StyledSettings = [Family, Size]
+            Position.X = 315.000000000000000000
+            Position.Y = 19.000000000000000000
+            Size.Width = 120.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 6
+            Text = 'Nomination C - I '
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+            TextSettings.FontColor = xFF18478F
+          end
+          object RadioBu_form: TRadioButton
+            StyledSettings = [Family, Size]
+            Position.X = 433.000000000000000000
+            Position.Y = 20.000000000000000000
+            Size.Width = 65.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 13
+            Text = 'Forme'
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+            TextSettings.FontColor = xFF18478F
+          end
+          object RadioBu_Pays_labo: TRadioButton
+            StyledSettings = [Family, Size]
+            Position.X = 134.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 139.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 7
+            Text = 'Pays du Laboratoire'
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+            TextSettings.FontColor = xFF18478F
+          end
+          object RadioBu_Date_initial: TRadioButton
+            StyledSettings = [Family, Size]
+            Position.X = 275.000000000000000000
+            Position.Y = 42.000000000000000000
+            Size.Width = 107.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 9
+            Text = 'Date D - Initial'
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+            TextSettings.FontColor = xFF18478F
+          end
+          object RadioBu_Date_finale: TRadioButton
+            StyledSettings = [Family, Size]
+            Position.X = 389.000000000000000000
+            Position.Y = 42.000000000000000000
+            Size.Width = 107.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 8
+            Text = 'Date D - Finale'
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+            TextSettings.FontColor = xFF18478F
+          end
+          object RadioBu_Duree_stb: TRadioButton
+            StyledSettings = [Family, Size]
+            Position.X = 281.000000000000000000
+            Position.Y = 64.000000000000000000
+            Size.Width = 123.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 10
+            Text = 'Duree de Stabilite'
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+            TextSettings.FontColor = xFF18478F
+          end
+          object RadioBu_Remborssm: TRadioButton
+            StyledSettings = [Family, Size]
+            Position.X = 401.000000000000000000
+            Position.Y = 64.000000000000000000
+            Size.Width = 109.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 11
+            Text = 'Remborsement'
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+            TextSettings.FontColor = xFF18478F
+          end
+          object RadioBu_list: TRadioButton
+            StyledSettings = [Family, Size]
+            Position.X = 233.000000000000000000
+            Position.Y = 63.000000000000000000
+            Size.Width = 51.000000000000000000
+            Size.Height = 19.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 12
+            Text = 'Liste'
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+            TextSettings.FontColor = xFF18478F
+          end
+        end
+        object Panel1: TPanel
+          Align = Client
+          Size.Width = 481.205322265625000000
+          Size.Height = 50.117938995361330000
+          Size.PlatformDefault = False
+          StyleLookup = 'pushpanel'
+          TabOrder = 1
+          object Rectangle2: TRectangle
+            Align = Center
+            Fill.Color = claWhite
+            Margins.Left = 1.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 1.000000000000000000
+            Margins.Bottom = 3.000000000000000000
+            Size.Width = 260.000000000000000000
+            Size.Height = 42.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+            XRadius = 21.000000000000000000
+            YRadius = 21.000000000000000000
+            object edit_serch: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Client
+              StyleLookup = 'transparentedit'
+              TabOrder = 0
+              MaxLength = 70
+              TextSettings.Font.Size = 16.000000000000000000
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+              TextSettings.FontColor = xFF18478F
+              Margins.Left = 20.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Margins.Right = 20.000000000000000000
+              Margins.Bottom = 5.000000000000000000
+              Size.Width = 220.000000000000000000
+              Size.Height = 32.000000000000000000
+              Size.PlatformDefault = False
+              TextPrompt = 'Search ...'
+              StyledSettings = [Family]
+              CharCase = ecUpperCase
+              OnTyping = edit_serchTyping
+              object SearchEditButton1: TSearchEditButton
+                CanFocus = False
+                Cursor = crArrow
+                Size.Width = 28.000000000000000000
+                Size.Height = 28.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+              end
+            end
+          end
+          object Rectangle3: TRectangle
+            Align = Right
+            Fill.Color = claWhite
+            Margins.Left = 10.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Right = 5.000000000000000000
+            Margins.Bottom = 3.000000000000000000
+            Position.X = 384.205322265625000000
+            Position.Y = 5.000000000000000000
+            Size.Width = 92.000000000000000000
+            Size.Height = 42.117938995361330000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+            XRadius = 21.058969497680660000
+            YRadius = 21.058969497680660000
+            object Circle2: TCircle
+              Align = Center
+              Cursor = crArrow
+              Fill.Bitmap.Bitmap.PNG = {
+                89504E470D0A1A0A0000000D4948445200000034000000340806000000C5781B
+                EB000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                06C2494441546843C59A6B6C545510C7E79C7BDBDD4629ADB4766BAB1851232A
+                F115154214D4D2565189282224FAC144A3F8E863253E49837E50E93B2625F842
+                A3283E232AA4BB2D41E3070C284114FC4050D04A775BA45DA5A5BB7BEF19CFDD
+                0EC56DEFBDFBDEFD7DD9F94F76B33B3973E6CC9CBB0CD2CDB28F95F27F8FCE13
+                02AB19C3AB7401173001E54C85CD213DF4EC50EF33017A6746485B4065356D97
+                C9973A0DD95D790C4AC6BD114640E063BE9EC67749679494032ABD6D9D8B6B6A
+                330BB295E0044E6E028FCA2FB8A3DFD3B8871C1927A580CAAADB97A38EEBB9CA
+                8AC9354128AC0D2AF9F9F306BBEB0E912B2B28F49A20C8CAAAA7B732C65A1967
+                05E49C6014E164BEC26F1DF4D4EF2357D6483CA0A626EE72EE799331BE8A3C53
+                50193C3FE069F88864569994F3B129FBBEA8457EEC41925340D0F7FA0B2BDA48
+                669D840272D5B42F959BAE81A429C8D4A7E0937B75925927EEA2507E7B4B4970
+                140FE4E7A9A5E49A822EC4EEC11EF775247342DC2B8421BEC62E180359205E27
+                3367C41550E5E2D60A3DC81E21698A3E0621A7EAFC8C64CE882B204DE38F2B4E
+                C827690A73C0CE3FB6AE1A229933E208081922DC4FC212D9B77D4B664E891950
+                D9A28EEB18830A92962040D6DA1B3B62AF10879BC9B247839FC94A99736E6DB9
+                D855DDEA362A2BB9E2268E9413B1CBF0B1617DE0ACCA23A452A2A4A6AD5C0495
+                6F64C96CC190F2D5A5CB9A6CF7EE646206C4805F4EA62538A3C89796C3744193
+                AA02DB0479501ED10CE61E0F4C6F8ED871621F90ECDB4243C3E792B263805E53
+                C2E52C7A49BEDC34AE08C69E7455B73F402A26B601CDFCA6A830BFB8C841D212
+                59E14E929934AEEA8EBB01869F26190D832E1A2063C24A6B3B67298057938E42
+                002BE6283690B441FC024C799144148862D45F58D96D9792E5D52D97A05076C9
+                DE7F1AB94C1007837AF8DA58233C2BAD693EA0803A9B744640C427FDDEC6D748
+                4651B6A8F90CC6D49D7215E690CB1A015B7C3DF577C99F2D4F097338037517D9
+                99415640F9257B494D41CE556FC4158C018725723FB94999C20BC6861F11803F
+                924E3F674D5FDDEF69FC8E5414AEDAD655B23CAF20191F8CBD2C3FB780D41422
+                E383EBB6E699614DFD61D26D4DCAA080F7FC3D0DA615AA7C51DB7CE4811D0045
+                79E44A80B05F55956BFAB6BAFF22C704912AE7DBB6FA88C27085911E116F3AD0
+                61BF6C1F1E251585ABB6B35447DC9C5C300679655A987F6A76E84EDC298C1CF2
+                FC76E69C254C2EE94272A542404376CB60AFDB47FA34CB3E56CE0CFEF3A59C9D
+                AE204F7230A83C39E62C3C71C8D34D9E0851E7906F5EE0255949B6924C926199
+                69F0C0B1DEFA83E488C215E89B7A78260B833A574D5BD4243065043F6F715771
+                2834B65BD6BF59E44A107CD5E7697C86441491C3930D7D22532DA5FBC0498C20
+                E0F57E4FA34CF1492B64600C6942E14B4F8CE9A3E48A1B7938787D7303CF918C
+                C2383C41E0C634076370861CD93E2FAE7A65BA214C5B9F81EEFA7DD31CFC6192
+                F1A16987154D5D096BD7CA8C8B66E68226A72E944DF69D40F2C879ED6287E2E8
+                326CCB5EAEDFDBB8492EE57A92B6C80636880A5F7E74FB137F932B8A6041F11D
+                5C01D3F62A7D84EF8C741DA4CCB966435E59C9E80EF9A6F9E431076195CFDB60
+                19BC910E0E9EFF10CA868F5C513064B5C031667535CE35B9EB237B65320CC44F
+                3EAFBB3B663E57D47656EA288C4EE2EC71CF1436FA3C0D9637A9F120DB990EA3
+                6291B44420AB1EF0D6F79034C532E54EF157775D9FEC98EF93A636EE398DD132
+                39C6862DEFB8E345A6B6934C5BB810316F95620664E0F7BA7720C20B242368A0
+                FFCD15FDEE23DFAE1D2357F220DA5E609E42E5F81B9996C4159081DF5BBF4E96
+                AF4F23C2E8A0515D61B44C119D220C707CE4B6218C70ACCFEB3E4ED292B80332
+                B6AE5375C8528E5FC38CC2A763E57242E8CAF96459A230B19B4C5BD27DC8258C
+                715585616590A42572487C560E89AF90B4248115CA0C7A985F49A62D4CB02D64
+                DA92F380E4306D39AC9DC2A8A6BEDE865F49DA92FB80805591690917607A1F61
+                464E032AA9EAB848463497A429BAC003BEA2CAF749C624A701291C633ED55015
+                7C21915BD99C5539A391D4987AD8F61E0361B3EC1113BA44C9D90A31AEACB10B
+                C648B5A008DA3E353423272BE4AA6A9FAD8761AFD55341995F7F320D170E6C6F
+                8CD9EA4C26EB2B54794F6B811CF4DEB17EC4290ECA1F756332C1186437A0A626
+                1E0E8051B14C9F3921882F8CFB6BBFA7E130B912266B2977616DA7E3048AB7A5
+                B972DCF33F04F80413EE01AFFB03F2244D560232FE16100AF20FE5187E03B908
+                FC5D4EB1EB41685DFE9ED523E44C898C0774764DDB1201E22D15941972B31F67
+                3AECE70AF63054B6F57BEBD27EA79ED1808C341B1170B9065A4013E1C14CFF3D
+                1300E03F363D486E7D0614510000000049454E44AE426082}
+              Fill.Bitmap.WrapMode = TileStretch
+              Fill.Kind = Bitmap
+              Margins.Left = 10.000000000000000000
+              Margins.Top = 2.000000000000000000
+              Margins.Right = 65.000000000000000000
+              Margins.Bottom = 2.000000000000000000
+              Size.Width = 26.000000000000000000
+              Size.Height = 22.000000000000000000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              OnClick = Circle2Click
+            end
+            object Label3: TLabel
+              Align = Client
+              StyledSettings = [Family]
+              HitTest = True
+              Margins.Left = 20.000000000000000000
+              Margins.Top = 2.000000000000000000
+              Margins.Bottom = 2.000000000000000000
+              Size.Width = 72.000000000000000000
+              Size.Height = 38.117938995361330000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 14.000000000000000000
+              TextSettings.Font.StyleExt = {00060000000000000004000000}
+              TextSettings.FontColor = xFF18478F
+              TextSettings.HorzAlign = Center
+              Text = 'Reset'
+              TabOrder = 1
+              OnClick = Label3Click
+            end
+          end
+          object Rectangle4: TRectangle
+            Align = FitLeft
+            Fill.Color = claWhite
+            Margins.Left = 1.000000000000000000
+            Margins.Top = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Position.X = 1.000000000000000000
+            Position.Y = 5.000000000000000000
+            Size.Width = 96.228851318359380000
+            Size.Height = 40.117935180664060000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+            XRadius = 20.058967590332030000
+            YRadius = 20.058967590332030000
+            object Lab_dashbord: TLabel
+              Align = Right
+              StyledSettings = [Family]
+              HitTest = True
+              Margins.Left = 1.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Margins.Right = 2.000000000000000000
+              Margins.Bottom = 5.000000000000000000
+              Position.X = 25.228851318359380000
+              Position.Y = 5.000000000000000000
+              Size.Width = 69.000000000000000000
+              Size.Height = 30.117935180664060000
+              Size.PlatformDefault = False
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.FontColor = xFF18478F
+              TextSettings.HorzAlign = Center
+              Text = 'Dashboard'
+              TabOrder = 0
+            end
+            object img_R_dashbord: TCircle
+              Align = Left
+              Fill.Bitmap.Bitmap.PNG = {
+                89504E470D0A1A0A0000000D4948445200000034000000340806000000C5781B
+                EB000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                036D494441546843ED984F48147114C77FBFB76A86A25DDAD5300AA14B10D13F
+                0A3C04D6AE067512AD4B2741080A540ABA85B7825CF75081481245144AD141AA
+                5594D6BA145410E821F220A4EEEA8CE2BF58D399D79BF545D8CEEAFE9975E730
+                1F58E7F7FBCECCBADFF9BDDF7B8F110E0E0E0E0E0E0ED621F9682907EB6F1528
+                0BA55700F1A490100A075B3AF954D6B1DC90FB8CBF52003E0780132CD17F910D
+                E1B7CDBD3CCB2AC0474BF078DB2F01E0D70D6608D4B09A8759C712434688796A
+                3A3A25C0330150C2F23F005D3CCA3A191B7257073CEAC2AE218ADD2696724A46
+                866855F643BEF69ECC54B19473D236B4A7F6EE1132F291BEE2004BB6202D43EE
+                1AFF591DE5B0315C57EC43CA86CA7C813AA1631FDD5ACC92AD48A90E797C1D17
+                11C5630051C05252E888AF5D52DCD68598D5E853149D9F1B0FB545F9B4A5246D
+                A8AC36502F34CD48CB96A4605DD77FD1611624CC1946A5D4E7248242BF4811A8
+                2B2841A527A1A20B6728BCC79560EBD4FA9D9B9394218FD77F4102BEA030CB67
+                2907E84BF4A7275CB2B749F436D0429BB3E5D376FB025EDA692FA5903B58CA11
+                92C25C1E295A595497C782945DCDD93429947BFD55D4B7BCA28B0A59CA3952DF
+                BC80270C39F7B9F643B0263E98B63239465F9565D343CD119E6E20F10AE9D06D
+                473331F2B1924771981ADA7DFA5E319D38CE53DB01A897F2300E534333A1AB4B
+                9457BFF1D47668226F818771240C39C8C37AA33EF0D44650555AC3319EC491D0
+                D0E49BEBDF2963D491A9AC54F40C184994100C121A3288045BDE4994F5465E61
+                C906C8FB3C306553430691FEE63E44B84C7B2A6175DE1EA853407C182EA9E862
+                C194A47B394F6DA051A2465F0649DF930C46484B14AAA41E8E9AD8099032420D
+                F04FFA69D300DA043DC529CB7BB9BF94FBFC4D88F8208D06F5130AF114105521
+                25359FA060DE6F0557851219B8B1CCD75842CA4FDBE30B9C47813DB44E3B59DA
+                12BABE2B126CDD96770E5BEEA1FF31F614A0A8A5E1FCBA622F523664101E6819
+                9622F6AE6D7A5DB10F691932980AB67EA150AAA60D3CC1922D48DB9001ED8B11
+                97967798D2E9204B39272343069383D7D4F0CA3CED29BCC3524EC9D8508C50DB
+                5A38D87A93C2AF315600E3A04AB34D58638889F4B77403E0315DE0679662D05E
+                1BE561D6B1FC25FAE28F7E75DFD1538FA2D1C259A42A476BF324525AD12E467B
+                B76D951C1C1C1C1C1C1C1CCC10E20F38052D6F6B74C9150000000049454E44AE
+                426082}
+              Fill.Bitmap.WrapMode = TileStretch
+              Fill.Kind = Bitmap
+              Margins.Left = 1.000000000000000000
+              Margins.Top = 10.000000000000000000
+              Margins.Right = 1.000000000000000000
+              Margins.Bottom = 10.000000000000000000
+              Position.X = 1.000000000000000000
+              Position.Y = 10.000000000000000000
+              Size.Width = 24.000000000000000000
+              Size.Height = 20.117935180664060000
+              Size.PlatformDefault = False
+              Stroke.Kind = None
+              OnClick = img_R_dashbordClick
+            end
+          end
+        end
+        object Rect_info: TRectangle
+          Align = Client
+          Fill.Color = claWhite
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 174.794677734375000000
+          Size.Height = 75.882064819335940000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          Visible = False
+          XRadius = 20.000000000000000000
+          YRadius = 20.000000000000000000
+          object Label4: TLabel
+            Align = Center
+            StyledSettings = [Family]
+            Size.Width = 152.000000000000000000
+            Size.Height = 91.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00060000000000000004000000}
+            TextSettings.FontColor = xFF18478F
+            TextSettings.HorzAlign = Center
+            Text = 'Select Your Choice and Type Your Search'
+            TabOrder = 0
+          end
+        end
+      end
+    end
+    object Lay_client: TLayout
+      Align = Client
+      HitTest = True
+      Size.Width = 921.000000000000000000
+      Size.Height = 406.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Grid1: TGrid
+        Align = Client
+        CanFocus = True
+        ClipChildren = True
+        Margins.Left = 2.000000000000000000
+        Margins.Top = 2.000000000000000000
+        Margins.Right = 2.000000000000000000
+        Margins.Bottom = 2.000000000000000000
+        Size.Width = 917.000000000000000000
+        Size.Height = 402.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'gridstyle'
+        TextSettings.Font.StyleExt = {00030000000000000004000000}
+        TextSettings.HorzAlign = Center
+        TextSettings.Trimming = Word
+        StyledSettings = [Family, Size, FontColor]
+        TabOrder = 0
+        RowCount = 300
+        Options = [AlternatingRowBackground, AlwaysShowEditor, ColumnResize, ColumnMove, ColLines, RowLines, RowSelect, AlwaysShowSelection, Header, HeaderClick]
+        Viewport.Width = 897.000000000000000000
+        Viewport.Height = 361.000000000000000000
+      end
+    end
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Server=KIKATOKIRO-PC'
+      'OSAuthent=Yes'
+      'Password=kikatokiro'
+      'Database=Medicament_DB'
+      'ConnectionDef=MSSQL_Demo')
+    Connected = True
+    LoginPrompt = False
+    AfterConnect = FDConnection1AfterConnect
+    BeforeDisconnect = FDConnection1BeforeDisconnect
+    Left = 712
+    Top = 209
+  end
+  object FDTable1: TFDTable
+    Active = True
+    CachedUpdates = True
+    IndexFieldNames = 'ID'
+    Connection = FDConnection1
+    UpdateOptions.UpdateTableName = 'Medicament_DB..MEDICAMENT'
+    TableName = 'Medicament_DB..MEDICAMENT'
+    Left = 672
+    Top = 313
+  end
+  object DataSource1: TDataSource
+    DataSet = FDTable1
+    Left = 712
+    Top = 369
+  end
+  object FDPhysMSSQLDriverLink1: TFDPhysMSSQLDriverLink
+    Left = 688
+    Top = 505
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSource = DataSource1
+    ScopeMappings = <>
+    Left = 440
+    Top = 200
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 444
+    Top = 301
+    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Category = 'Liaisons rapides'
+      DataSource = BindSourceDB1
+      GridControl = Grid1
+      Columns = <
+        item
+          MemberName = 'ID'
+          ReadOnly = True
+          Header = 'N'#176
+          Width = 60
+        end
+        item
+          MemberName = 'NUM_ENREGISTREMENT'
+          ReadOnly = True
+          Header = 'N'#176'Enregestrment'
+          Width = 80
+          ColumnStyle = 'IntegerColumn'
+        end
+        item
+          MemberName = 'CODE'
+          ReadOnly = True
+          Header = 'Code'
+          Width = 60
+        end
+        item
+          MemberName = 'DENOMINATION_COMMUNE_INTERNATIONALE'
+          ReadOnly = True
+          Width = 230
+        end
+        item
+          MemberName = 'NOM_DE_MARQUE'
+          ReadOnly = True
+          Header = 'Nom de Marque'
+          Width = 150
+        end
+        item
+          MemberName = 'FORME'
+          ReadOnly = True
+          Header = 'Forme'
+          Width = 130
+        end
+        item
+          MemberName = 'DOSAGE'
+          ReadOnly = True
+          Header = 'Dosage'
+          Width = 70
+        end
+        item
+          MemberName = 'COND'
+          ReadOnly = True
+          Header = 'Cond'
+          Width = 100
+        end
+        item
+          MemberName = 'LISTE'
+          ReadOnly = True
+          Header = 'Liste'
+          Width = 80
+        end
+        item
+          MemberName = 'P1'
+          ReadOnly = True
+          Width = 80
+        end
+        item
+          MemberName = 'P2'
+          ReadOnly = True
+          Width = 80
+        end
+        item
+          MemberName = 'OBS'
+          ReadOnly = True
+          Width = 70
+        end
+        item
+          MemberName = 'LABORATOIRES_DETENTEUR_DE_LA_DECISION_DENREGISTREMENT'
+          ReadOnly = True
+          Header = 'Laboratoire Detenteur de La Decision Denregistrement'
+          Width = 150
+        end
+        item
+          MemberName = 'PAYS_DU_LABORATOIRE_DETENTEUR_DE_LA_DECISION_DENREGISTREMENT'
+          ReadOnly = True
+          Header = 'Pays de Laboratoire detenteur de La Decision Denregistrement'
+          Width = 150
+        end
+        item
+          MemberName = 'DATE_DENREGISTREMENT_INITIAL'
+          ReadOnly = True
+          Header = 'Date Denregistrement Initial'
+          Width = 150
+        end
+        item
+          MemberName = 'DATE_DENREGISTREMENT_FINAL'
+          ReadOnly = True
+          Header = 'Date Denregistrement Final'
+          Width = 150
+        end
+        item
+          MemberName = 'TYPE'
+          ReadOnly = True
+          Header = 'Type'
+          Width = 80
+        end
+        item
+          MemberName = 'STATUT'
+          ReadOnly = True
+          Header = 'Statut'
+          Width = 80
+        end
+        item
+          MemberName = 'DUREE_DE_STABILITE'
+          ReadOnly = True
+          Header = 'Duree de Stabilite'
+          Width = 100
+        end
+        item
+          MemberName = 'PRIX_PORTE_SUR_LA_DECISION_DENREGISTREMENT'
+          ReadOnly = True
+          Header = 'Prix Porte Sur La Decision Denregistrement'
+          Width = 100
+        end
+        item
+          MemberName = 'REMBOURSEMENT'
+          ReadOnly = True
+          Header = 'Remborursement'
+          Width = 100
+        end>
+    end
+  end
+  object frxReport1: TfrxReport
+    Version = '1.0.20'
+    DataSet = frxDBDataset1
+    DataSetName = 'frxDBDataset1'
+    DotMatrixReport = False
+    PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFullScreen, pbOutline, pbThumbnails, pbPageSetup, pbEdit, pbNavigator, pbClose]
+    PreviewOptions.Zoom = 1.000000000000000000
+    PrintOptions.Printer = 'Default'
+    PrintOptions.PrintOnSheet = 0
+    ReportOptions.Author = 'Zerari bedreddine 2019'
+    ReportOptions.CreateDate = 43705.021415219900000000
+    ReportOptions.LastChange = 43706.610539236100000000
+    ReportOptions.IsFMXReport = True
+    ScriptLanguage = 'PascalScript'
+    ScriptText.Strings = (
+      'begin'
+      ''
+      'end.')
+    Left = 586
+    Top = 270
+    Datasets = <
+      item
+        DataSet = frxReport1.Page1
+      end>
+    Variables = <>
+    Style = <>
+    object Data: TfrxDataPage
+      Height = 1000.000000000000000000
+      Width = 1000.000000000000000000
+    end
+    object Page1: TfrxReportPage
+      PaperWidth = 210.000000000000000000
+      PaperHeight = 297.000000000000000000
+      PaperSize = 9
+      LeftMargin = 10.000000000000000000
+      RightMargin = 10.000000000000000000
+      TopMargin = 10.000000000000000000
+      BottomMargin = 10.000000000000000000
+      object Memo1: TfrxMemoView
+        Align = baCenter
+        Left = 103.937075000000000000
+        Top = 34.015770000000000000
+        Width = 510.236550000000000000
+        Height = 90.708720000000000000
+        ShowHint = False
+        Font.Name = '@MingLiU'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -13.000000000000000000
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8W = (
+          'REPUBLIQUE ALGERIENNE DEMOCRATIQUE ET POPULAIRE'
+          
+            'MINISTERE DE LA SANTE DE LA POPULATION ET DE LA REFORME HOSPITAL' +
+            'IERE'
+          'DIRECTION GENERALE DE LA PHARMACIE ET DES EQUIPEMENTS DE SANTE'
+          
+            'DIRECTION DES PRODUITS PHARMACEUTIQUES - SOUS DIRECTION DE L'#39'ENR' +
+            'EGISTREMENT')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object frxDBDataset1ID: TfrxMemoView
+        Left = 79.370130000000000000
+        Top = 166.299320000000000000
+        Width = 151.181200000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        DataField = 'ID'
+        DataSet = frxDBDataset1
+        DataSetName = 'frxDBDataset1'
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        HAlign = haCenter
+        Memo.UTF8W = (
+          '[frxDBDataset1."ID"]')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object frxDBDataset1NUM_ENREGISTREMENT: TfrxMemoView
+        Left = 196.881880000000000000
+        Top = 200.315090000000000000
+        Width = 457.323130000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        DataField = 'NUM_ENREGISTREMENT'
+        DataSet = frxDBDataset1
+        DataSetName = 'frxDBDataset1'
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8W = (
+          '[frxDBDataset1."NUM_ENREGISTREMENT"]')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object frxDBDataset1CODE: TfrxMemoView
+        Left = 464.882190000000000000
+        Top = 166.299320000000000000
+        Width = 188.976500000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        DataField = 'CODE'
+        DataSet = frxDBDataset1
+        DataSetName = 'frxDBDataset1'
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        HAlign = haCenter
+        Memo.UTF8W = (
+          '[frxDBDataset1."CODE"]')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object frxDBDataset1NOM_DE_MARQUE: TfrxMemoView
+        Left = 196.535560000000000000
+        Top = 226.771800000000000000
+        Width = 457.323130000000000000
+        Height = 30.236240000000000000
+        ShowHint = False
+        DataField = 'NOM_DE_MARQUE'
+        DataSet = frxDBDataset1
+        DataSetName = 'frxDBDataset1'
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8W = (
+          '[frxDBDataset1."NOM_DE_MARQUE"]')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object frxDBDataset1DENOMINATION_COMMUNE_INTERNATIONALE: TfrxMemoView
+        Left = 302.362400000000000000
+        Top = 529.134200000000000000
+        Width = 377.953000000000000000
+        Height = 37.795300000000000000
+        ShowHint = False
+        DataField = 'DENOMINATION_COMMUNE_INTERNATIONALE'
+        DataSet = frxDBDataset1
+        DataSetName = 'frxDBDataset1'
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8W = (
+          '[frxDBDataset1."DENOMINATION_COMMUNE_INTERNATIONALE"]')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object frxDBDataset1FORME: TfrxMemoView
+        Left = 120.944960000000000000
+        Top = 457.323130000000000000
+        Width = 332.598640000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        DataField = 'FORME'
+        DataSet = frxDBDataset1
+        DataSetName = 'frxDBDataset1'
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8W = (
+          '[frxDBDataset1."FORME"]')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object frxDBDataset1COND: TfrxMemoView
+        Left = 83.149660000000000000
+        Top = 366.614410000000000000
+        Width = 166.299320000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        DataField = 'COND'
+        DataSet = frxDBDataset1
+        DataSetName = 'frxDBDataset1'
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8W = (
+          '[frxDBDataset1."COND"]')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object frxDBDataset1DOSAGE: TfrxMemoView
+        Left = 105.826840000000000000
+        Top = 411.968770000000000000
+        Width = 241.889920000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        DataField = 'DOSAGE'
+        DataSet = frxDBDataset1
+        DataSetName = 'frxDBDataset1'
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8W = (
+          '[frxDBDataset1."DOSAGE"]')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object frxDBDataset1P1: TfrxMemoView
+        Left = 476.220780000000000000
+        Top = 495.118430000000000000
+        Width = 204.094620000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        DataField = 'P1'
+        DataSet = frxDBDataset1
+        DataSetName = 'frxDBDataset1'
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8W = (
+          '[frxDBDataset1."P1"]')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object frxDBDataset1P2: TfrxMemoView
+        Left = 536.693260000000000000
+        Top = 457.323130000000000000
+        Width = 143.622140000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        DataField = 'P2'
+        DataSet = frxDBDataset1
+        DataSetName = 'frxDBDataset1'
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8W = (
+          '[frxDBDataset1."P2"]')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object frxDBDataset1TYPE: TfrxMemoView
+        Left = 120.944960000000000000
+        Top = 491.338900000000000000
+        Width = 185.196970000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        DataField = 'TYPE'
+        DataSet = frxDBDataset1
+        DataSetName = 'frxDBDataset1'
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8W = (
+          '[frxDBDataset1."TYPE"]')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object frxDBDataset1STATUT: TfrxMemoView
+        Left = 162.519790000000000000
+        Top = 634.961040000000000000
+        Width = 517.795610000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        DataField = 'STATUT'
+        DataSet = frxDBDataset1
+        DataSetName = 'frxDBDataset1'
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8W = (
+          '[frxDBDataset1."STATUT"]')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object frxDBDataset1PRIX_PORTE_SUR_LA_DECISION_DENREGISTREMENT: TfrxMemoView
+        Left = 559.370440000000000000
+        Top = 309.921460000000000000
+        Width = 120.944960000000000000
+        Height = 105.826840000000000000
+        ShowHint = False
+        DataField = 'PRIX_PORTE_SUR_LA_DECISION_DENREGISTREMENT'
+        DataSet = frxDBDataset1
+        DataSetName = 'frxDBDataset1'
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8W = (
+          '[frxDBDataset1."PRIX_PORTE_SUR_LA_DECISION_DENREGISTREMENT"]')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object frxDBDataset1REMBOURSEMENT: TfrxMemoView
+        Left = 468.661720000000000000
+        Top = 740.787880000000000000
+        Width = 211.653680000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        DataField = 'REMBOURSEMENT'
+        DataSet = frxDBDataset1
+        DataSetName = 'frxDBDataset1'
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8W = (
+          '[frxDBDataset1."REMBOURSEMENT"]')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object frxDBDataset1RESERVE: TfrxMemoView
+        Left = 132.283550000000000000
+        Top = 740.787880000000000000
+        Width = 204.094620000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        DataField = 'RESERVE'
+        DataSet = frxDBDataset1
+        DataSetName = 'frxDBDataset1'
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8W = (
+          '[frxDBDataset1."RESERVE"]')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object frxDBDataset1DATE_DENREGISTREMENT_INITIAL: TfrxMemoView
+        Left = 196.535560000000000000
+        Top = 283.464750000000000000
+        Width = 347.716760000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        DataField = 'DATE_DENREGISTREMENT_INITIAL'
+        DataSet = frxDBDataset1
+        DataSetName = 'frxDBDataset1'
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8W = (
+          '[frxDBDataset1."DATE_DENREGISTREMENT_INITIAL"]')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object frxDBDataset1DATE_DENREGISTREMENT_FINAL: TfrxMemoView
+        Left = 196.535560000000000000
+        Top = 321.260050000000000000
+        Width = 347.716760000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        DataField = 'DATE_DENREGISTREMENT_FINAL'
+        DataSet = frxDBDataset1
+        DataSetName = 'frxDBDataset1'
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8W = (
+          '[frxDBDataset1."DATE_DENREGISTREMENT_FINAL"]')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object frxDBDataset1OBS: TfrxMemoView
+        Left = 132.283550000000000000
+        Top = 688.874460000000000000
+        Width = 204.094620000000000000
+        Height = 22.677180000000000000
+        ShowHint = False
+        DataField = 'OBS'
+        DataSet = frxDBDataset1
+        DataSetName = 'frxDBDataset1'
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8W = (
+          '[frxDBDataset1."OBS"]')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object frxDBDataset1LISTE: TfrxMemoView
+        Left = 393.071120000000000000
+        Top = 366.614410000000000000
+        Width = 151.181200000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        DataField = 'LISTE'
+        DataSet = frxDBDataset1
+        DataSetName = 'frxDBDataset1'
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8W = (
+          '[frxDBDataset1."LISTE"]')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object Date: TfrxMemoView
+        Left = 11.338590000000000000
+        Top = 1012.914040000000000000
+        Width = 90.708720000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        Font.Name = 'Arial'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -12.000000000000000000
+        Memo.UTF8W = (
+          '[Date]')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object Time: TfrxMemoView
+        Left = 124.724490000000000000
+        Top = 1012.914040000000000000
+        Width = 79.370130000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        Font.Name = 'Arial'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -12.000000000000000000
+        Memo.UTF8W = (
+          '[Time]')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object Page: TfrxMemoView
+        Left = 634.961040000000000000
+        Top = 1012.914040000000000000
+        Width = 79.370130000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        Font.Name = 'Arial'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -12.000000000000000000
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8W = (
+          '[Page#]')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object Page2: TfrxMemoView
+        Left = 551.811380000000000000
+        Top = 1012.914040000000000000
+        Width = 79.370130000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        Font.Name = 'Arial'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -12.000000000000000000
+        HAlign = haCenter
+        Memo.UTF8W = (
+          '[Page]')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object Memo2: TfrxMemoView
+        Left = 18.897650000000000000
+        Top = 166.299320000000000000
+        Width = 56.692950000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = [fsBold]
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8W = (
+          'N:')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object Memo3: TfrxMemoView
+        Left = 402.850650000000000000
+        Top = 166.299320000000000000
+        Width = 56.692950000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = [fsBold]
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8W = (
+          'Code:')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object Memo4: TfrxMemoView
+        Left = 18.897650000000000000
+        Top = 200.315090000000000000
+        Width = 162.519790000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Memo.UTF8W = (
+          'N'#176'ENREGISTREMEN')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object Memo5: TfrxMemoView
+        Left = 18.897650000000000000
+        Top = 234.330860000000000000
+        Width = 147.401670000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Memo.UTF8W = (
+          'NOM DE MARQUE')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object Memo6: TfrxMemoView
+        Left = 18.897650000000000000
+        Top = 283.464750000000000000
+        Width = 170.078850000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        HAlign = haCenter
+        Memo.UTF8W = (
+          'DATE D'#39'ENREGISTREMENT INITIAL')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object Memo7: TfrxMemoView
+        Left = 18.897650000000000000
+        Top = 321.260050000000000000
+        Width = 166.299320000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        HAlign = haCenter
+        Memo.UTF8W = (
+          'DATE D'#39'ENREGISTREMENT FINAL')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object Memo8: TfrxMemoView
+        Left = 597.165740000000000000
+        Top = 283.464750000000000000
+        Width = 49.133890000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        HAlign = haCenter
+        Memo.UTF8W = (
+          'Prix')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object Memo9: TfrxMemoView
+        Left = 18.897650000000000000
+        Top = 366.614410000000000000
+        Width = 41.574830000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Memo.UTF8W = (
+          'COND')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object Memo10: TfrxMemoView
+        Left = 15.118120000000000000
+        Top = 411.968770000000000000
+        Width = 68.031540000000010000
+        Height = 18.897650000000000000
+        ShowHint = False
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Memo.UTF8W = (
+          'DOSAGE')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object Memo11: TfrxMemoView
+        Left = 306.141930000000000000
+        Top = 366.614410000000000000
+        Width = 60.472480000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        HAlign = haCenter
+        Memo.UTF8W = (
+          'LISTE')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object Memo12: TfrxMemoView
+        Left = 18.897650000000000000
+        Top = 457.323130000000000000
+        Width = 94.488249999999990000
+        Height = 18.897650000000000000
+        ShowHint = False
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Memo.UTF8W = (
+          'FORME')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object Memo13: TfrxMemoView
+        Left = 15.118120000000000000
+        Top = 491.338900000000000000
+        Width = 86.929190000000010000
+        Height = 18.897650000000000000
+        ShowHint = False
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        HAlign = haCenter
+        Memo.UTF8W = (
+          'TYPE')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object Memo14: TfrxMemoView
+        Left = 487.559370000000000000
+        Top = 457.323130000000000000
+        Width = 26.456710000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        HAlign = haCenter
+        Memo.UTF8W = (
+          'P1')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object Memo15: TfrxMemoView
+        Left = 415.748300000000000000
+        Top = 491.338900000000000000
+        Width = 26.456710000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        HAlign = haCenter
+        Memo.UTF8W = (
+          'P2')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object Memo16: TfrxMemoView
+        Left = 18.897650000000000000
+        Top = 532.913730000000000000
+        Width = 268.346630000000000000
+        Height = 34.015770000000000000
+        ShowHint = False
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        HAlign = haCenter
+        Memo.UTF8W = (
+          'LABORATOIRES DETENTEUR DE LADECISION D'#39'ENREGISTREMENT')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object Memo17: TfrxMemoView
+        Left = 18.897650000000000000
+        Top = 634.961040000000000000
+        Width = 83.149660000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Memo.UTF8W = (
+          'STATUT')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object Memo18: TfrxMemoView
+        Left = 464.882190000000000000
+        Top = 695.433520000000000000
+        Width = 215.433210000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        HAlign = haCenter
+        Memo.UTF8W = (
+          'REMBOURSEMENT')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object Memo19: TfrxMemoView
+        Left = 18.897650000000000000
+        Top = 691.653990000000000000
+        Width = 94.488249999999990000
+        Height = 18.897650000000000000
+        ShowHint = False
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Memo.UTF8W = (
+          'OBS')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object Memo20: TfrxMemoView
+        Left = 18.897650000000000000
+        Top = 740.787880000000000000
+        Width = 94.488249999999990000
+        Height = 18.897650000000000000
+        ShowHint = False
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Memo.UTF8W = (
+          'RESERVE')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object frxDBDataset1DUREE_DE_STABILITE: TfrxMemoView
+        Left = 181.417440000000000000
+        Top = 786.142240000000000000
+        Width = 249.448980000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        DataField = 'DUREE_DE_STABILITE'
+        DataSet = frxDBDataset1
+        DataSetName = 'frxDBDataset1'
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8W = (
+          '[frxDBDataset1."DUREE_DE_STABILITE"]')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object frxDBDataset1PAYS_DU_LABORATOIRE_DETENTEUR_DE_LA_DECISION_DENREGISTREMENT: TfrxMemoView
+        Left = 491.338900000000000000
+        Top = 578.268090000000000000
+        Width = 188.976500000000000000
+        Height = 37.795300000000000000
+        ShowHint = False
+        DataField = 'PAYS_DU_LABORATOIRE_DETENTEUR_DE_LA_DECISION_DENREGISTREMENT'
+        DataSet = frxDBDataset1
+        DataSetName = 'frxDBDataset1'
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+        HAlign = haCenter
+        Memo.UTF8W = (
+          
+            '[frxDBDataset1."PAYS_DU_LABORATOIRE_DETENTEUR_DE_LA_DECISION_DEN' +
+            'REGISTREMENT"]')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object Memo21: TfrxMemoView
+        Left = 18.897650000000000000
+        Top = 589.606680000000000000
+        Width = 461.102660000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        HAlign = haCenter
+        Memo.UTF8W = (
+          'PAYS DU LABORATOIRE DETENTEUR DE LA DECISION D'#39'ENREGISTREMENT')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+      object Memo22: TfrxMemoView
+        Left = 18.897650000000000000
+        Top = 786.142240000000000000
+        Width = 147.401670000000000000
+        Height = 18.897650000000000000
+        ShowHint = False
+        Font.Name = 'Agency FB'
+        Font.PixelsPerInch = 96.000000000000000000
+        Font.Style = []
+        Font.Color = xFF000008
+        Font.Height = -15.000000000000000000
+        Memo.UTF8W = (
+          'DUREE DE STABILITE')
+        ParentFont = False
+        VAlign = vaCenter
+      end
+    end
+  end
+  object frxDBDataset1: TfrxDBDataset
+    UserName = 'frxDBDataset1'
+    CloseDataSource = False
+    DataSet = FDTable1
+    BCDToCurrency = False
+    Left = 586
+    Top = 94
+  end
+end

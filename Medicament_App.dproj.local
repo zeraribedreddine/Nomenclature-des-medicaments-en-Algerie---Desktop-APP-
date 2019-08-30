@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/08/25 12:49:08.000.846,=C:\Users\kikatokiro\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2019/08/25 12:49:58.000.914,C:\Users\kikatokiro\Desktop\Project db Medicament algerien\main_unit.fmx=C:\Users\kikatokiro\Documents\Embarcadero\Studio\Projets\Unit1.fmx</Transaction>
+    <Transaction>2019/08/25 12:49:58.000.914,C:\Users\kikatokiro\Desktop\Project db Medicament algerien\main_unit.pas=C:\Users\kikatokiro\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2019/08/25 12:50:22.000.547,C:\Users\kikatokiro\Desktop\Project db Medicament algerien\Medicament_App.dproj=C:\Users\kikatokiro\Documents\Embarcadero\Studio\Projets\Project1.dproj</Transaction>
+    <Transaction>2019/08/25 12:51:25.000.022,=C:\Users\kikatokiro\Desktop\Project db Medicament algerien\Unit2.pas</Transaction>
+    <Transaction>2019/08/25 12:51:42.000.772,C:\Users\kikatokiro\Desktop\Project db Medicament algerien\dashbord_unit.fmx=C:\Users\kikatokiro\Desktop\Project db Medicament algerien\Unit2.fmx</Transaction>
+    <Transaction>2019/08/25 12:51:42.000.772,C:\Users\kikatokiro\Desktop\Project db Medicament algerien\dashbord_unit.pas=C:\Users\kikatokiro\Desktop\Project db Medicament algerien\Unit2.pas</Transaction>
+    <Transaction>2019/08/28 13:39:14.000.261,=C:\Users\kikatokiro\Desktop\Project db Medicament algerien\Unit3.pas</Transaction>
+    <Transaction>2019/08/28 13:39:58.000.824,C:\Users\kikatokiro\Desktop\Project db Medicament algerien\Propos_Unit.fmx=C:\Users\kikatokiro\Desktop\Project db Medicament algerien\Unit3.fmx</Transaction>
+    <Transaction>2019/08/28 13:39:58.000.824,C:\Users\kikatokiro\Desktop\Project db Medicament algerien\Propos_Unit.pas=C:\Users\kikatokiro\Desktop\Project db Medicament algerien\Unit3.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
